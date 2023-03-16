@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Start": {
+      "commandName": "Executable",
+      "executablePath": "$(GameFolder)\\bin\\Win64_Shipping_Client\\Bannerlord.exe",
+      "commandLineArgs": "/singleplayer _MODULES_*Bannerlord.Harmony*BetterExceptionWindow*Bannerlord.ButterLib*Bannerlord.UIExtenderEx*Bannerlord.MBOptionScreen*Native*SandBoxCore*Sandbox*CustomBattle*StoryMode*BirthAndDeath*AnotherAchievementModule*_MODULES_",
+      "workingDirectory": "$(GameFolder)\\bin\\Win64_Shipping_Client"
+    },
+    "MySetup": {
+      "commandName": "Executable",
+      "executablePath": "$(GameFolder)\\bin\\Win64_Shipping_Client\\Bannerlord.exe",
+      "commandLineArgs": "/singleplayer _MODULES_*Bannerlord.Harmony*BetterExceptionWindow*Bannerlord.ButterLib*Bannerlord.UIExtenderEx*Bannerlord.MBOptionScreen*Native*SandBoxCore*Sandbox*AnotherAchievementModule*CustomBattle*StoryMode*ArrangeMarriageForFamily*AutoTrader*BannerColorPersistence*Bannerlord.Diplomacy*BirthAndDeath*CharacterManager*DedicatedCustomServerHelper*DismembermentPlus*FamilyControl*KillBanditsRaiseRelations*Multiplayer*RighteousExecutions*TimeLord*_MODULES_",
+      "workingDirectory": "$(GameFolder)\\bin\\Win64_Shipping_Client"
+    }
+  }
+}
